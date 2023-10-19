@@ -1,22 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
+import IconSvg from "../components/IconSvg.astro"
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <Layout title="Pixelado - La Web al alcance de todos.">
+<Layout title="Pixelado - Servicios Desarrollo Web">
         <section class="landing-section bg-slate-400 h-screen w-screen text-center relative overflow-hidden" data-header-color="black">
             <!-- Container for demo purpose -->
 <div class="container my-24 mx-auto md:px-6">
     <!-- Section: Design Block -->
-    <section class="mb-32">
-      <h2 class="mb-12 text-center text-3xl font-bold">Pricing</h2>
+    <section>
+      <h2 class="mb-12 text-center text-3xl font-bold">Planes de diseño web</h2>
   
       <div class="grid gap-6 lg:grid-cols-3 lg:gap-x-12">
         <div class="mb-6 lg:mb-0">
@@ -24,38 +16,41 @@ import Layout from "../layouts/Layout.astro";
             class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10">
               <p class="mb-4 text-sm uppercase">
-                <strong>Basic</strong>
+                <strong>landing Page</strong>
               </p>
               <h3 class="mb-6 text-3xl">
-                <strong>$ 129</strong>
-                <small class="text-base text-neutral-500 dark:text-neutral-300">/year</small>
+                <strong>$ 100</strong>
+                <small class="text-base text-neutral-500 dark:text-neutral-300"> /año</small>
               </h3>
   
               <button type="button"
                 class="inline-block w-full rounded bg-primary-100 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200"
                 data-te-ripple-init data-te-ripple-color="light">
-                Buy
+                COMPRAR
               </button>
             </div>
             <div class="p-6">
               <ol class="list-inside">
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Unlimited
-                  updates
+                  <IconSvg /> Pagina Web 1 Seccion.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Git
-                  repository
+                  <IconSvg />Portada animada con video o imagenes.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>npm
-                  installation
+                  <IconSvg />Posicionamiento de google con Metadatos.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Creación de contenido atractivo y relevante.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Integración Chat de Whatsapp.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Integración de Redes sociales.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Formulario de contacto.
                 </li>
               </ol>
             </div>
@@ -67,48 +62,49 @@ import Layout from "../layouts/Layout.astro";
             class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10">
               <p class="mb-4 text-sm uppercase">
-                <strong>Advanced</strong>
+                <strong>Web Standar</strong>
               </p>
               <h3 class="mb-6 text-3xl">
-                <strong>$ 299</strong>
+                <strong>$ 250</strong>
                 <small class="text-base text-neutral-500 dark:text-neutral-300">/year</small>
               </h3>
               <button type="button"
                 class="inline-block w-full rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                 data-te-ripple-init data-te-ripple-color="light">
-                Buy
+                COMPRAR
               </button>
             </div>
             <div class="p-6">
               <ol class="list-inside">
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Unlimited
-                  updates
+                  <IconSvg />Pagina web de hasta 5 secciones.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Git
-                  repository
+                  <IconSvg />Portada animada con video o imagenes.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>npm
-                  installation
+                  <IconSvg />Creación de menús de navegación.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Code examples
+                  <IconSvg />Incorporación de imágenes y videos.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Premium
-                  snippets
+                  <IconSvg />Posicionamiento de google con Metadatos.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Creación de contenido atractivo y relevante.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Optimización para buscadores (SEO).
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Integración Chat de Whatsapp.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Integración de Redes sociales.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Formulario de contacto.
                 </li>
               </ol>
             </div>
@@ -120,60 +116,49 @@ import Layout from "../layouts/Layout.astro";
             class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
             <div class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10">
               <p class="mb-4 text-sm uppercase">
-                <strong>Enterprise</strong>
+                <strong>Web Empresarial</strong>
               </p>
               <h3 class="mb-6 text-3xl">
-                <strong>$ 499</strong>
+                <strong>$ 399</strong>
                 <small class="text-base text-neutral-500 dark:text-neutral-300">/year</small>
               </h3>
               <button type="button"
                 class="inline-block w-full rounded bg-primary-100 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200"
                 data-te-ripple-init data-te-ripple-color="light">
-                Buy
+                COMPRAR
               </button>
             </div>
             <div class="p-6">
               <ol class="list-inside">
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Unlimited
-                  updates
+                  <IconSvg />Pagina web de hasta 10 secciones.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Git
-                  repository
+                  <IconSvg />Creación de menús de navegación.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>npm
-                  installation
+                  <IconSvg />Portada animada con video o imagenes.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Code examples
+                  <IconSvg />Incorporación de imágenes y videos.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Premium
-                  snippets
+                  <IconSvg />Posicionamiento de google con Metadatos.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Premium
-                  support
+                  <IconSvg />Creación de contenido atractivo y relevante.
                 </li>
                 <li class="mb-4 flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="mr-3 h-5 w-5 text-primary dark:text-primary-400">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>Drag&amp;Drop
-                  builder
+                  <IconSvg />Optimización para buscadores (SEO).
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Integración Chat de Whatsapp.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Integración de Redes sociales.
+                </li>
+                <li class="mb-4 flex">
+                  <IconSvg />Formulario de contacto.
                 </li>
               </ol>
             </div>
@@ -181,11 +166,6 @@ import Layout from "../layouts/Layout.astro";
         </div>
       </div>
     </section>
-    <!-- Section: Design Block -->
   </div>
-  <!-- Container for demo purpose -->
-        </section>
-    
-    </Layout>
-</body>
-</html>
+</section>
+</Layout>
