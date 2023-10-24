@@ -1,24 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ChargeSection from '../components/ChargeSection.astro';
-import HeroSectionBack from '../components/HeroSectionBack.astro'
+import ServicesSection from '../components/ServicesSection.astro';
 import HeroSection from '../components/HeroSection.astro'
+import FooterSection from '../components/FooterSection.astro';
+import PortfolioSection from '../components/PortfolioSection.astro'
 ---
 
 <Layout title="Pixelado - La Web al alcance de todos.">
 	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
-		<div class="snap-center">
-			<HeroSectionBack />
-		</div>
-		<div class="snap-center">
-			<ChargeSection />
-		</div>
-		<div class="snap-center">
+		<!-- <div class="snap-center">
 			<HeroSection />
 		</div>
-		<!-- <div class="snap-center">
-			<ChargeSection />
+		<div class="snap-center">
+			<ServicesSection />
+		</div>
+		<div class="snap-center">
+			<PortfolioSection />
 		</div> -->
+		<div class="snap-center">
+			<FooterSection />
+		</div>
 	</main>
 </Layout>
 
